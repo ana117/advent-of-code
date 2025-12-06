@@ -29,7 +29,7 @@ test_data_a = \"\"\"
 \"\"\".strip()
 test_data_b = test_data_a
 test_answer_a = 0
-test_answer_b = test_answer_a
+test_answer_b = 0
 
 
 def solve_a(data):

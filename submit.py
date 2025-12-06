@@ -23,7 +23,7 @@ def run(year, day):
     
     input_file = os.path.join(folder_path, 'input.txt')
     with open(input_file, 'r') as f:
-        input_data = f.read()
+        input_data = f.read().strip()
     
     answer.test_a()
     print(f"Part 1 solution for {year} Day {day}: {answer.solve_a(input_data)}")
